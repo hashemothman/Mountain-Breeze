@@ -138,11 +138,11 @@ function cheakboundary() {
     if(parseInt(sliderInner.style.left) > 0){
         sliderInner.style.left='0px'
     }else if (inner.right < outer.right) {
-        sliderInner.style.left = `-${100}%`
+        sliderInner.style.left = `-${inner.width - outer.width }px`
      
     }
 
-   
+
 }
 cheakboundary();
 
