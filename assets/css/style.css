@@ -1,7 +1,7 @@
 /* Hero styles */
 
 .hero::before {
-  background-image: url("./assets/heroRoom.jpg");
+  background-image: url("../img/heroRoom.jpg");
 }
 .hero p {
   font-weight: 600;
@@ -12,7 +12,7 @@
 /* Rooms Styles */
 
 .services__header {
-  background-image: url("./assets/roomsImage.jpg");
+  background-image: url("../img/roomsImage.jpg");
 }
 
 @media screen and (max-width: 1150px) {
@@ -290,8 +290,6 @@
   font-size: 2.2rem;
 }
 
-
-
 @media screen and (max-width: 1160px) {
   .room__type__image {
     /* width: 100%; */
@@ -365,6 +363,10 @@
 } */
 
 @media screen and (max-width: 700px) {
+  .room__type__heading {
+    padding-left: 0%;
+  }
+
   .rooms__types {
     padding-bottom: 0;
   }
@@ -376,6 +378,7 @@
     padding: 18px;
   }
   .room__type__short__desc {
+    padding-left: 0%;
     margin-bottom: 8px;
   }
 
@@ -391,8 +394,6 @@
     height: 400px;
     object-fit: cover;
   }
-
- 
 }
 /* End Room style */
 
@@ -626,7 +627,6 @@
     margin-bottom: 8px;
   }
 
-
   .booking__input__group input,
   .booking__input__group select {
     margin-bottom: 0px;
@@ -644,7 +644,8 @@
     font-size: 7px;
   }
 
-  .focus input, .focus select {
+  .focus input,
+  .focus select {
     font-size: 1.5rem;
   }
 

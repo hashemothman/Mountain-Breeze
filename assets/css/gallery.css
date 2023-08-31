@@ -1,10 +1,11 @@
 .hero::before {
-  background-image: url("./assets/gallery/gallery.jpg");
+  background-image: url("../img/gallery/gallery.jpg");
 }
 
 .services__header {
-  background-image: url("./assets/gallery/resturant/ResturantOne.png");
-  padding-bottom: 270px;
+  background-image: url("../img/gallery/resturant/ResturantOne.png");
+  padding-bottom: 200px;
+  padding-top: 150px;
 }
 
 .sections {
@@ -16,7 +17,7 @@
   border-radius: 24px;
   position: absolute;
   width: 91.7%;
-  top: -90px;
+  top: -109px;
   left: 5%;
   z-index: 3;
   background-color: white;
@@ -118,18 +119,18 @@
 /* Gallery */
 .gallery {
   background-color: #e5e5e5;
-  /* padding-bottom: 70px; */
+  padding-bottom: 116px;
   text-align: center;
 }
 
 .photos {
   position: relative;
-  top: -206px;
+  top: -120px;
   left: 0;
   z-index: 1;
-  display: grid;
-  width: 90%;
   margin: 0 5%;
+  width: 90%;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
