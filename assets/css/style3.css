@@ -1,0 +1,1214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f0f0;
+}
+/* <!-- start hero section  --> */
+.ho-hero-contact-section {
+  background-image: url(../img/Maskgroup1.jpg);
+  background-size: cover;
+ max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ho-hero-contact-section .ho-hero-info {
+  width: 50%;
+  text-align: center;
+}
+.ho-hero-contact-section .ho-hero-info h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 5.625rem;
+  font-weight: 900;
+}
+.ho-hero-contact-section .ho-hero-info p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+/* <!-- end hero section  --> */
+/* <!-- start form  section  --> */
+.ho-conact-section {
+  max-width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  height: 90vh;
+}
+.ho-conact-section .ho-form-contact-section {
+  width: 80%;
+  border-radius: 16.201px;
+  background: #fff;
+  padding: 40px;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:-20%;
+  box-shadow: 3px 3px 10px #929292;
+}
+.ho-conact-section .ho-form-contact-section .ho-title-form-contact h3 {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 2.125rem;
+  font-weight: 600;
+}
+.ho-conact-section .ho-form-contact-section .ho-title-form-contact p {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.ho-conact-section .ho-form-contact-section form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.ho-conact-section .ho-form-contact-section form .ho-form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ho-conact-section
+  .ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact {
+  width: 45%;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  input,
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  border: none;
+  color: #282828;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  input:focus,
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select:focus {
+  outline: none;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid #282828;
+  font-size: 1.25rem;
+  color: #282828;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  label
+  .text-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  label
+  .text-name
+  .star {
+  color: #e81313;
+}
+.ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  input:focus
+  + label
+  .text-name,
+.ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select:focus
+  + label
+  .text-name,
+.ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  input:valid
+  + label
+  .text-name,
+.ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select:valid
+  + label
+  .text-name {
+  transform: translateY(-150%);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-weight: 400;
+  left: 0px;
+  color: #928c8c;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select {
+  appearance: none;
+}
+
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  select
+  option:first-child {
+  display: none;
+}
+.ho-form-contact-section
+  form
+  .ho-form-section
+  .ho-form-info-contact
+  .ho-form-name
+  img {
+  position: absolute;
+  right: 2%;
+  top: 70%;
+}
+.ho-arow {
+  transform: rotateX(180deg);
+}
+.ho-text-area {
+  position: relative;
+}
+.ho-text-area .ho-form-textarea {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.ho-text-area .ho-form-textarea span {
+  color: #e81313;
+}
+
+.ho-form-contact-section form .ho-text-area textarea {
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid #282828;
+  border-radius: 1rem;
+  resize: none;
+  height: 150px;
+  padding: 10px;
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.ho-form-contact-section form .ho-text-area textarea:focus {
+  outline: none;
+}
+.ho-form-contact-section form .ho-form-checkbox{
+    padding: 10px 0;
+}
+.ho-form-contact-section form .ho-form-checkbox label {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+.ho-form-contact-section form button{
+    width:30%;
+    margin: 50px auto 50px;
+    border-radius: 0.6rem;
+    background: #004E6B;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.125rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* <!-- end form  section  --> */
+/* <!-- start map  section  --> */
+.ho-info-map {
+  background-image: url(../img/Group573.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 415px;
+}
+.ho-info-map .ho-map-info-address{
+  margin: 0 auto;
+  width: 80%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ho-info-map .ho-map-info-address h3,
+.ho-info-contact .ho-address-contact h3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.ho-info-map .ho-map-info-address p,
+.ho-info-contact .ho-address-contact p{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.ho-info-map .ho-map-info-address button{
+  border-radius: 8.757px;
+  background: #282828;
+  border: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 34px;
+  cursor: pointer;
+}
+.ho-info-map .ho-map-info-address button span{
+  color: #E5E5E5;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.ho-google-map{
+  width: 100%;
+  height: 350px;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ho-google-map iframe{
+  border-radius: 10px;
+  position: absolute;
+  top:-65%;
+  left:50%;
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 10px #929292;
+}
+/* <!-- end map  section  --> */
+/* <!-- start contact info section  --> */
+.ho-info-contact {
+  background-image: url(../img/Untitled-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 415px;
+
+}
+.ho-info-contact .ho-address-contact{
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 80%;
+}
+.ho-cards-info-contact{
+  background-color: #E5E5E5;
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+.ho-cards-info-contact .ho-cards-contact{
+  margin: 0 auto;
+  width:80%;
+  padding: 30px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 16.201px;
+  box-shadow: 3px 3px 10px #929292;
+  position: absolute;
+  top:-175px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.ho-cards-info-contact .ho-cards-contact .ho-title-cards{
+  margin-bottom: 20px;
+}
+.ho-cards-contact .ho-cards-info{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.ho-cards-contact .ho-cards-info .ho-card{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.ho-cards-contact .ho-cards-info .ho-card h3{
+  color: #004E6B;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.ho-cards-contact .ho-cards-info .ho-card h2{
+  color: #004E6B;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ho-cards-contact .ho-cards-info .ho-card h2{
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.ho-cards-contact .ho-cards-info .ho-card:nth-child(3) h2{
+  color: #004E6B;
+}
+.ho-cards-contact .ho-cards-info .ho-card:nth-child(3) h2 span{
+  color: #282828;
+}
+.ho-cards-contact .ho-cards-info .ho-card p {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ho-cards-contact .ho-cards-info .ho-card:nth-child(3) p {
+color: #004E6B;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-weight: 400;
+}
+.ho-cards-contact .ho-cards-info .ho-card p:last-child span{
+  color: #282828; 
+}
+.ho-contact-media ul{
+  list-style: none;
+  border-radius: 16px;
+  background: #004E6B;
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  margin: 80px 0 30px;
+}
+.ho-contact-media ul li{
+  padding: 0 10px;
+}
+/* <!-- end contact info section  --> */
+/* start media ---------------------------------------------- */
+@media (max-width:990px)and (min-width:750px) {
+  html{
+    font-size: 75%;
+  }
+  .ho-google-map iframe{
+    width: 80%;
+  }
+  .ho-conact-section{
+    height: 600px;
+  }
+  .ho-cards-info-contact{
+    height: 800px;
+  }
+  .ho-conact-section .ho-form-contact-section{
+    top:-10%
+  }
+
+}
+@media (max-width:1250px) {
+  html{
+    font-size: 85%;
+  }
+  .ho-google-map iframe{
+    max-width: 80%;
+  }
+  .ho-conact-section{
+    height: 700px;
+  }
+  .ho-cards-info-contact{
+    height: 700px;
+  }
+  .ho-conact-section .ho-form-contact-section{
+    top:-10%
+  }
+}
+@media (max-width:750px) {
+  /* <!-- start hero section  --> */
+  .ho-hero-contact-section{
+    background-image: url(../img/cover2-01.jpg);
+  }
+  .ho-hero-contact-section .ho-hero-info{
+    width:75%
+  }
+  .ho-hero-contact-section .ho-hero-info h2{
+    font-size: 2.5rem;
+  }
+  .ho-hero-contact-section .ho-hero-info p{
+    font-size: 1rem;
+  }
+  /* <!-- end hero section  --> */
+  /* <!-- start form  section  --> */
+  .ho-conact-section .ho-form-contact-section{
+    padding: 20px;
+  }
+  .ho-conact-section .ho-form-contact-section{
+    width: 90%;
+    top:-5%;
+  }
+  .ho-conact-section .ho-form-contact-section .ho-title-form-contact h3{
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  .ho-conact-section .ho-form-contact-section .ho-title-form-contact p{
+    font-size: 0.625rem;
+    margin-bottom: 20px;
+  }
+  .ho-conact-section .ho-form-contact-section form .ho-form-section{
+    flex-direction: column;
+  }
+  .ho-conact-section .ho-form-contact-section form .ho-form-section .ho-form-info-contact{
+    width:90%;
+  }
+  .ho-form-contact-section form .ho-form-checkbox label{
+    font-size: 0.5rem;
+  }
+  .ho-form-contact-section form button{
+    font-size: 1rem;
+    padding: 5px;
+    width: 40%;
+  }
+  .ho-form-contact-section form button::after{
+    content: " info";
+  }
+
+  /* <!-- end form  section  --> */
+  /* <!-- start map  section  --> */
+  .ho-info-map{
+background-image: url(../img/Group1.jpg);
+height: 185px;
+  }
+  .ho-info-map .ho-map-info-address{
+    padding: 50px 0;
+  }
+  .ho-info-map .ho-map-info-address h3,
+.ho-info-contact .ho-address-contact h3{
+  font-size: 1.125rem;
+}
+.ho-info-map .ho-map-info-address p,
+.ho-info-contact .ho-address-contact p{
+  font-size: 0.6875rem;
+}
+.ho-info-map .ho-map-info-address button{
+  display: none;
+}
+.ho-google-map{
+  height: 150px;
+}
+  .ho-google-map iframe{
+    width: 80%;
+   height: 135px;
+   top:-45%;
+  }
+
+  /* <!-- end map  section  --> */
+  /* <!-- start contact info section  --> */
+  .ho-cards-info-contact .ho-cards-contact{
+    width: 90%;
+    padding: 20px;
+    top:-75px;
+  }
+  .ho-info-contact .ho-address-contact{
+    padding: 50px 0;
+  }
+  .ho-cards-contact .ho-cards-info .ho-card{
+    width: 92%;
+  }
+  .ho-cards-contact .ho-cards-info{
+    flex-direction: column;
+    align-items: center;
+  }
+  .ho-cards-contact .ho-cards-info .ho-card h3,
+  .ho-cards-contact .ho-cards-info .ho-card p,
+  .ho-cards-contact .ho-cards-info .ho-card:nth-child(3) p{
+    font-size: 0.75rem;
+  }
+  .ho-cards-contact .ho-cards-info .ho-card h2{
+    font-size: 0.875rem;
+  }
+  .ho-contact-media ul{
+    padding: 5px 20px;
+  }
+  .ho-info-contact{
+    background-image:url(../img/Group580.jpg) ;
+    height: 185px;
+  }
+  .ho-cards-info-contact{
+    height: 1000px;
+  }
+  /* <!-- end contact info section  --> */
+}
+
+/* End Contact Us Page */
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Start About Us Page  */
+/* start hero section  */
+.ho-hero-about{
+    background-image: url(../img/Group512.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ho-hero-about h2{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 5.625rem;
+  font-style: normal;
+  font-weight: 700;
+  width:60%;
+  text-align: center;
+}
+/* end hero section  */
+/* <!-- start about section  --> */
+.ho-about{
+  padding: 42px 0 41px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.ho-about .ho-title-about{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.ho-about .ho-title-about h3{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.ho-about .ho-title-about p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.ho-about p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.ho-about h5{
+  color: #8E8E8E;
+  font-family: Montserrat;
+  font-size:1.125rem;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+/* <!-- end about section  --> */
+/* <!-- start about article section  --> */
+.ho-article-about{
+  position: relative;
+  height: 900px;
+  margin-bottom: 95px;
+}
+.ho-article-about .ho-article-photo-back{
+  background-image: url(../img/Group498.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 390px;
+
+}
+.ho-article-about .ho-article-photo-back h3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+  width:80%;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+.ho-article-about .ho-photo-article{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap:32px;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  padding-bottom: 95px;
+  /* background-color: #f0f0f0;  */
+}
+.ho-article-about .ho-photo-article img{
+  width: 390px;
+  height: 318px;
+  border-radius: 8px;
+}
+.ho-article-about .ho-photo-article img:nth-child(4){
+  width: 812px;
+  height: 318px;
+}
+
+/* <!-- end about article section  --> */
+
+/* <!-- start about related article section  --> */
+.ho-related-article{
+  position: relative;
+  width: 100%;
+  height: 850px;
+}
+.ho-related-article .ho-related-back{
+  background-image: url(../img/Group297.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 412px;
+
+}
+.ho-related-article .ho-related-back h3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+  width:80%;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+.ho-related-article .ho-related-article-cards{
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  gap:20px
+}
+.ho-article-card{
+  width: 344.5px;
+  border-radius: 23px;
+  background: #FFF;
+  box-shadow: 10px 4px 23px 0px rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+}
+.ho-article-card img{
+  width:100%
+}
+.ho-article-card .ho-card-info{
+  padding: 10px 25px;
+}
+.ho-article-card .ho-card-info h3{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+.ho-article-card .ho-card-info p{
+  color:  #282828;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 4px;
+}
+.ho-article-card .ho-card-info h5{
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 15px 0;
+}
+.ho-article-card .ho-card-info button{
+  border-radius: 6px;
+  background:  #004E6B;
+  border: none;
+  cursor: pointer;
+  padding: 10px 22px;
+  margin-bottom: 10px;
+}
+.ho-article-card .ho-card-info button a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+/* <!-- end about related article section  --> */
+/* start media about page  */
+@media (max-width:1250px) {
+  .ho-article-about{
+    height: 900px;
+    margin-bottom: 75px;
+  }
+  .ho-article-about .ho-photo-article img{
+    width:300px;
+    height: 268px;
+  }
+  .ho-article-about .ho-photo-article img:nth-child(4){
+    height: 268px;
+    width:700px
+    }
+  
+}
+@media (max-width:1100px)  {
+  html{
+    font-size: 85%;
+  }
+  .ho-related-article{
+    height: 750px;
+  }
+  .ho-article-about{
+    height: 1100px;
+    margin-bottom: 150px;
+  }
+  .ho-article-about .ho-photo-article img{
+    width:300px;
+    height: 268px;
+  }
+  .ho-article-about .ho-photo-article img:nth-child(4){
+    order:3;
+    width:750px
+  }
+  .ho-article-about .ho-photo-article img:nth-child(1)
+  {
+    order:1
+  }
+  .ho-article-about .ho-photo-article img:nth-child(2){
+    order:2;
+  }
+  .ho-article-about .ho-photo-article img:nth-child(3){
+    order:4;
+  }
+  .ho-article-about .ho-photo-article img:nth-child(5){
+    order:5;
+  }
+  
+}
+@media (max-width:990px) {
+  html{
+    font-size: 75%;
+  }
+  .ho-related-article{
+    height: 650px;
+  }
+  .ho-article-about .ho-photo-article img{
+    width: 340px;
+    height: 268px; 
+  }
+  .ho-article-about .ho-photo-article img:nth-child(4){
+    width: 712px;
+    height: 268px;
+    order:3
+}
+
+.ho-article-about .ho-photo-article img:nth-child(1)
+{
+  order:1
+}
+.ho-article-about .ho-photo-article img:nth-child(2){
+  order:2;
+}
+.ho-article-about .ho-photo-article img:nth-child(3){
+  order:4;
+}
+.ho-article-about .ho-photo-article img:nth-child(5){
+  order:5;
+}
+
+  
+  
+}
+@media (max-width:750px)  {
+  /* start hero section  */
+  .ho-hero-about{
+    background-image: url(../img/Maskgroup.jpg);
+    height: 743px;
+  }
+  .ho-hero-about h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    width: 85%;
+  }
+  /* <!-- start about section  --> */
+  .ho-about .ho-title-about{
+    flex-direction: column;
+  }
+  .ho-about .ho-title-about h3{
+    color:  #282828;
+    font-size: 1rem;
+  }
+  .ho-about .ho-title-about p{
+    color: #282828;
+    font-size: 0.75rem;
+  }
+  .ho-about p,
+  .ho-about h5{
+    font-size: 0.75rem;
+  }
+  
+/* <!-- start about article section  --> */
+.ho-article-about{
+  height: 500px;
+}
+.ho-article-about .ho-article-photo-back{
+  background-image: url(../img/Group601.jpg);
+  height: 186px;
+}
+.ho-article-about .ho-article-photo-back h3,
+.ho-related-article .ho-related-back h3{
+font-size: 1.125rem;
+padding-top:53px
+}
+
+.ho-article-about .ho-photo-article img{
+  width: 146px;
+  height: 120px;  
+}
+.ho-article-about .ho-photo-article img:nth-child(4){
+  width: 312px;
+  height: 131px;
+  order:3
+}
+.ho-article-about .ho-photo-article img:nth-child(1)
+{
+  order:1
+}
+.ho-article-about .ho-photo-article img:nth-child(2){
+  order:2;
+}
+.ho-article-about .ho-photo-article img:nth-child(3){
+  order:4;
+}
+.ho-article-about .ho-photo-article img:nth-child(5){
+  order:5;
+}
+/* <!-- start about related article section  --> */
+.ho-related-article .ho-related-back{
+  background-image: url(../img/Group6011.jpg);
+  height: 186px;
+}
+.ho-related-article .ho-related-article-cards{
+  flex-direction: column;
+  align-items: center;
+  gap:26px;
+  top:15%;
+  padding-bottom: 100px;
+}
+.ho-article-card{
+  width: 312px;
+}
+.ho-article-card .ho-card-info h3{
+  color: #282828;
+  font-size: 1rem;
+  font-weight: 600;
+  }
+  .ho-article-card .ho-card-info p{
+    color:  #282828;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  .ho-article-card .ho-card-info h5{
+    color: #808080;
+    font-size: 0.75rem;
+  }
+  .ho-article-card .ho-card-info button a{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+}
+/* end about page style  */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* start learn more page style  */
+/* <!-- start hero more section  --> */
+.ho-more-section{
+  background-image: url(../img/Group615.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ho-more-section .ho-more-learn-info{
+  width:60%
+}
+.ho-more-section .ho-more-learn-info h2{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size:5.625rem;
+  font-weight: 900;
+}
+.ho-more-section .ho-more-learn-info p{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+/* <!-- end hero more section  --> */
+/* <!-- start learn more section  --> */
+.ho-learn-more{
+  position: relative;
+}
+.ho-learn-more-title{
+  background-image: url(../img/Group284.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 592px;
+  display: flex;
+  justify-content: center;
+}
+.ho-learn-fillter{
+  margin: 0 auto;
+  width: 80%;
+  padding: 56px;
+  border-radius:  24px;
+  background: #FFF;
+  box-shadow: 14.17625904083252px 10.125899314880371px 16.201438903808594px 0px rgba(24, 29, 31, 0.14);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -15%;
+}
+.ho-learn-fillter h3{
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.ho-learn-fillter .ho-filter-select{
+  display: flex;
+  justify-content: space-between;
+}
+.ho-learn-fillter .ho-filter-select .ho-select:first-child{
+  width:30%
+}
+.ho-select{
+  position: relative;
+}
+.ho-select img{
+  position: absolute;
+  right: 0;
+  top:50%;
+}
+.ho-learn-fillter .ho-filter-select .ho-select:last-child{
+  width:60%
+}
+.ho-learn-fillter .ho-filter-select .ho-select{
+  border-bottom:1px solid #282828;
+}
+.ho-learn-fillter .ho-filter-select .ho-select select{
+  width: 100%;
+  border: none;
+  appearance: none;
+  color:  #282828;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 9px 0;
+}
+.ho-learn-fillter .ho-filter-select .ho-select select:focus{
+  outline: none;
+}
+.ho-learn-more-title .ho-title-more-learn{
+padding-top: 208px;
+  width:80%
+}
+.ho-learn-more-title .ho-title-more-learn h3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.ho-learn-more-title .ho-title-more-learn  p{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.learn-more{
+  position: absolute;
+  top: 60%;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+}
+.ho-pagenation{
+  width:80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 116px;
+}
+.ho-pagenation ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.ho-pagenation ul li{
+  margin: 0 5px;
+  border: 1px solid #004E6B;
+  border-radius: 5px;
+  width: 34px;
+  height: 34px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ho-pagenation ul li a{
+  text-decoration: none;
+  padding: 5px;
+}
+/* media style  */
+@media (max-width:1250px) {
+  
+}
+@media (max-width:1100px) {
+  html{
+    font-size: 85%;
+  }
+  
+}
+@media (max-width:990px) {
+  html{
+    font-size: 75%;
+  }
+  
+}
+@media (max-width:750px) {
+  .ho-more-section{
+    background-image: url(../img/Group427319398.jpg);
+    height: 927px;
+  }
+  .ho-learn-more-title{
+    background-image: url(../img/Group427319400.jpg);
+    height: 316px;
+  }
+  .ho-more-section .ho-more-learn-info h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.625rem;
+    font-weight: 900;
+  }
+  .ho-more-section .ho-more-learn-info p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.97rem;
+    font-weight: 500;
+  }
+  .ho-learn-fillter h3{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .ho-learn-fillter{
+    padding: 18px;
+    border-radius: 8px;
+  }
+  .ho-learn-more-title .ho-title-more-learn{
+    padding-top: 150px;
+  }
+  .ho-learn-more-title .ho-title-more-learn h3{
+    font-size: 1.125rem;
+  }
+  .ho-learn-more-title .ho-title-more-learn p{
+    font-size: 0.6875rem;
+  }
+  .ho-learn-fillter .ho-filter-select{
+    flex-direction: column;
+  }
+  .ho-learn-fillter .ho-filter-select .ho-select{
+    width: 100% !important;
+  }
+  .learn-more{
+    top:70%;
+    justify-content: center
+  }
+}
+
+
+/* <!-- end learn more section  --> */

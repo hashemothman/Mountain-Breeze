@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color--primary: #004e6b;
+  --color-secondary: #282828;
+  --color-background: #F0F0F0;
+  --color-font:#fff;
+  --cards-color: #FFF;
+  --transtion: all 0.3s linear;
+}
+
+
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+.btn--submit {
+  color: white;
+  background: var(--color--primary);
+  transition: var(--transtion);
+}
+
+
+.btn--submit:hover {
+  background-color: rgb(0, 78, 107, 0.9);
+}
+
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid var(--color--primary);
+  color: var(--color--primary);
+  transition: var(--transtion);
+}
+
+.btn--outline:hover {
+  color: white;
+  background-color: var(--color--primary);
+}
+.btn-white{
+  border-radius: 6px;
+  border: 1px solid #FFFDFD;
+  color: var(--color-font);
+  background-color: transparent;
+  transition: all ease-in-out 0.3s;
+
+}
+.btn-white:hover{
+  color: var( --color--primary);
+  background-color: #FFFDFD;
+}

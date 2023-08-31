@@ -1,0 +1,332 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --color--primary: #004e6b;
+    --color-secondary: #282828;
+    --color-background: #F0F0F0;
+    --color-font: #fff;
+    --cards-color: #FFF;
+    --transtion: all 0.3s linear;
+}
+
+footer {
+    background-image: url(../img/Footer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+
+
+
+}
+
+footer .footer-content {
+    padding: 146px 221px 24px 221px;
+    background: rgba(0, 76, 106, 0.90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer .footer-content .logo {
+    margin-bottom: 50px;
+}
+
+footer .footer-content .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+footer .footer-content .links .LinkList {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+footer .footer-content .links .LinkList li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Montserrat';
+    margin-top: 25px;
+}
+
+footer .footer-content .links .LinkList li:nth-child(1) {
+
+    margin-top: 0;
+}
+
+footer .footer-content .links .LinkList .lTalk-li {
+    margin-top: 39px;
+}
+
+
+
+footer .footer-content .links .LinkList li h3 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 142px;
+}
+
+footer .footer-content .links .LinkList li .keep {
+    padding-right: 0;
+}
+
+footer .footer-content .links .LinkList li a {
+    color: rgba(241, 241, 241, 0.80);
+    text-transform: uppercase;
+}
+
+footer .footer-content .links .LinkList li p {
+    color: rgba(241, 241, 241, 0.80);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+footer .footer-content .links .LinkList li p img {
+    color: #FFF;
+}
+
+footer .footer-content .links .LinkList li .lTalk {
+    border-radius: 8px;
+    border: 1px solid rgba(241, 241, 241, 0.80);
+    color: rgba(241, 241, 241, 0.80);
+    padding: 14px 26px;
+    transition: all ease-in-out 0.3s;
+}
+
+footer .footer-content .links .LinkList li .lTalk:hover {
+    border: 1px solid rgba(241, 241, 241, 0.80);
+    background-color: rgba(241, 241, 241, 0.80);
+    color: rgba(0, 76, 106, 0.90);
+
+}
+
+footer .footer-content .links .LinkList .social2 {
+    display: flex;
+    gap: 15.5px;
+}
+
+footer .footer-content .links .LinkList .social2 a {
+    height: 20px;
+}
+
+footer .footer-content .Created {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 28px;
+}
+
+footer .footer-content .Created p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer .footer-content .copyRight {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+footer .footer-content .copyRight p {
+    color: rgba(241, 241, 241, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 1365px) {
+
+
+    footer .footer-content {
+        padding: 146px 70px 24px 70px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    footer .footer-content {
+        padding: 37px 75px 24px 75px;
+
+    }
+
+    footer .footer-content .links {
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    footer .footer-content .links .LinkList {
+        align-items: center;
+        flex: 25%;
+        margin-bottom: 32px;
+    }
+
+    footer .footer-content .links .LinkList li h3 {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    footer .footer-content {
+        padding: 45px 24px 4.832%;
+
+    }
+
+    footer .footer-content .links {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    footer .footer-content .links .LinkList {
+        flex: 50%;
+        gap: 0px;
+        margin-bottom: 32px;
+
+
+    }
+
+
+
+
+    footer .footer-content .links .LinkList li:nth-child(1) {
+
+        margin-top: 0;
+    }
+
+    footer .footer-content .links .LinkList .lTalk-li {
+        margin-top: 20px;
+    }
+
+    footer .footer-content .links .LinkList li .lTalk {
+        padding: 4px 11px;
+    }
+
+    footer .footer-content .links .LinkList li h3 {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    footer {
+        background-image: url(../img/Footer2.jpg);
+        background-size: auto 100%;
+        background-position: center;
+
+    }
+
+    footer .footer-content .logo {
+        margin-bottom: 32px;
+        width: 121px;
+        height: 31px;
+
+    }
+
+    footer .footer-content {
+        padding: 42px 0 24px 0;
+
+    }
+
+
+    footer .footer-content .links .LinkList {
+        display: flex;
+        align-items: center;
+        flex: 100%;
+        flex-direction: column;
+        margin-bottom: 32px;
+
+
+    }
+
+
+    footer .footer-content .links .LinkList li {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 16px;
+
+    }
+
+    footer .footer-content .links .LinkList li:nth-child(1) {
+
+        margin-top: 0;
+    }
+
+    footer .footer-content .links .LinkList li h3 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    footer .footer-content .links .LinkList li .keep {
+        padding-right: 0;
+        margin-top: 22px;
+    }
+
+    footer .footer-content .links .LinkList li a {
+        color: rgba(241, 241, 241, 0.80);
+        text-transform: uppercase;
+    }
+
+    footer .footer-content .links .LinkList li p {
+        color: rgba(241, 241, 241, 0.80);
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    footer .footer-content .links .LinkList li p img {
+        color: #FFF;
+    }
+
+
+
+
+
+    footer .footer-content .Created {
+        margin-bottom: 25px;
+    }
+
+    footer .footer-content .Created p {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    footer .footer-content .Created img {
+        width: 48px;
+        height: 12px;
+    }
+
+    footer .footer-content .copyRight p {
+        font-size: 10px;
+    }
+
+}

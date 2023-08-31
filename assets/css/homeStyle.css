@@ -1,0 +1,1525 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.be-header {
+    position: relative;
+}
+
+
+
+
+/* hero style */
+.be-hero {
+
+    background-image: url(../img/coverHome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.be-hero .be-heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 10%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(1, 1, 1, 0.30) 100%);
+    color: var(--color-font);
+}
+
+.be-hero .be-heroContent .be-hero-h1 {
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    line-height: normal;
+}
+
+.be-hero .be-heroContent p {
+    color: var(--color-font);
+    font-size: 28.719px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.be-hero .be-heroContent .be-hero-p2 {
+    display: none;
+}
+
+.be-hero .be-heroContent .scroll {
+
+
+    animation: margin 1.5s ease infinite;
+}
+
+@keyframes margin {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.be-roomCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 0 4.832%;
+}
+
+.be-roomCard .card {
+    transform: translateY(-20%);
+    background-color: var(--cards-color);
+    border: none;
+    border-radius: 24px;
+    overflow: hidden;
+
+}
+
+.be-roomCard .card img {
+    width: 334px;
+    height: 252px;
+    min-width: 100%;
+}
+
+
+.be-roomCard .card .content {
+    padding: 20px 25px;
+}
+
+.be-roomCard .card .content .card-h2 {
+    color: var(--color-secondary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.be-roomCard .card .content .card-p {
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.be-roomCard .card .content .card-bottom {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.be-roomCard .card .content a {
+    padding: 5px 18px;
+    border-radius: 8px;
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.be-roomCard .card .content .priceber .price {
+    color: var(--color--primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.be-roomCard .card .content .priceber .time {
+    color: var(--color-secondary);
+    font-size: 10.453px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* end hero style */
+
+
+/* RESORT FACILITIES style */
+
+.be-ResortFa .sec-header {
+    padding: 0 4.832%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 95px;
+}
+
+.be-ResortFa .sec-header .title {
+    color: var(--color-secondary);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.be-ResortFa .sec-header .title span {
+    color: var(--color--primary);
+}
+
+.be-ResortFa .sec-header .desc {
+    color: var(--color--primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.be-ResortFa .sec-header .btn--outline {
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px 15px;
+    border: 1px solid var(--color--primary);
+}
+
+.clips {
+    position: relative;
+    padding-bottom: 522px;
+}
+
+.clips .clip {
+    position: absolute;
+    top: 0;
+    background-position: center;
+    height: 522px;
+    display: flex;
+    align-items: flex-end;
+
+
+
+}
+
+
+.clips .clip img {
+    width: 100%;
+    height: 100%;
+}
+
+.clips .clip2 img {
+    scale: 1.29;
+}
+
+
+
+.clips .clip .content-clip {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(1, 1, 1, 0.30) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: height 0.3s ease;
+
+}
+
+
+.clips .clip .content-clip h1 {
+    color: var(--color-font);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+.clips .clip .content-clip p {
+    color: var(--color-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+
+}
+
+.clips .clip1 {
+    left: 0px;
+    width: 35%;
+    height: 522px;
+    clip-path: polygon(0% 0%, 100% 0%, 79% 115%, 0% 100%);
+
+
+}
+
+.clips .clip2 {
+    left: 28%;
+    width: 44%;
+    height: 522px;
+    clip-path: polygon(14% 0, 99% 0%, 85% 100%, 1% 100%);
+
+}
+
+.clips .clip3 {
+    left: 65%;
+    width: 35%;
+    height: 522px;
+    clip-path: polygon(18% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* end RESORT FACILITIES style */
+/* start .be-OurResidential style  */
+.be-OurResidential {
+    background-size: cover;
+
+
+
+}
+
+
+.be-OurResidential .sec-header {
+    position: relative;
+    background: rgba(0, 78, 107, 0.90);
+    padding: 95px 4.832% 209px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+
+.be-OurResidential .sec-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/OurResidentialIMG/OurResidential.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    z-index: -1;
+
+
+
+}
+
+
+
+.be-OurResidential .sec-header .title {
+    color: var(--color-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+
+
+.be-OurResidential .sec-header .desc {
+    color: var(--color-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.be-OurResidential .sec-header .btn-white {
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 5px 15px;
+    text-align: center;
+    transition: all 0.3 ease-in-out;
+}
+
+
+
+.be-OurResidential .cards-container {
+    padding: 0 4.832%;
+}
+
+.be-OurResidential .cards-container .card1 {
+    width: 100%;
+    margin-right: 537px;
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+    /* max-height: 563px; */
+    overflow: hidden;
+    margin-bottom: 42px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateY(-116px);
+}
+
+.be-OurResidential .cards-container .card1 .img-card {
+    width: 40%;
+    max-height: 100%;
+
+}
+
+.be-OurResidential .cards-container .card1 .img-card img {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text {
+    width: 60%;
+    padding: 52px 62px 46px 20px;
+
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .card1-h1 {
+    color: var(--color-secondary);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .card1-p {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.9%;
+    margin-bottom: 45px;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .card1-p2 {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.9%;
+    margin-bottom: 44px;
+
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantages {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(1) img {
+    width: 24px;
+    height: 58px;
+    margin-bottom: 8px;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(2) img {
+    width: 62.169px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(3) img {
+    width: 82.625px;
+    height: 37px;
+    margin-bottom: 10px;
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(4) img {
+    width: 68px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 61px;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .Advantage p {
+    font-size: 16px;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .book {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.be-OurResidential .cards-container .card1 .card-text .book .btn--submit {
+    padding: 6px 24px;
+    border-radius: 8px;
+    color: var(--color-font);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.be-OurResidential .cards-container .card1 .card-text .book p {
+    color: var(--color-secondary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.be-OurResidential .cards-container .card1 .card-text .book p span {
+    color: var(--color--primary);
+    font-size: 56px;
+    font-weight: 600;
+}
+
+
+
+/* end .be-OurResidential style  */
+/* start .be-info style  */
+
+
+
+.be-info .sec-header {
+    position: relative;
+    background: rgba(0, 78, 107, 0.90);
+
+}
+
+.be-info .sec-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/info/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    z-index: -1;
+}
+
+
+.be-info .sec-header .numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 101px 4.832% 0;
+
+}
+
+.be-info .sec-header .numbers .number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.be-info .sec-header .numbers .number .num {
+    color: var(--color-font);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.be-info .sec-header .numbers .number .type {
+    color: var(--color-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.be-info .sec-header .video {
+    padding: 0 4.832%;
+    width: 100%;
+
+}
+
+.be-info .sec-header .video iframe {
+    border-radius: 8px;
+    width: 100%;
+
+    transform: translateY(101px);
+
+}
+
+.be-info .sec-header .video iframe {
+    border-radius: 16px;
+    width: 100%;
+    height: 527px;
+
+}
+
+/* end .be-info style  */
+.be-OurRestaurants {
+    padding-top: 199px;
+    margin-bottom: 74px;
+
+}
+
+.be-OurRestaurants .sec-header {
+    padding: 0 4.832%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 66px;
+}
+
+.be-OurRestaurants .sec-header .title {
+    color: var(--color-secondary);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.be-OurRestaurants .sec-header .title span {
+    color: var(--color--primary);
+}
+
+.be-OurRestaurants .sec-header .desc {
+    color: var(--color--primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.be-OurRestaurants .sec-header .btn--outline {
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px 15px;
+    border: 1px solid var(--color--primary);
+    text-align: center;
+}
+
+.be-OurRestaurants .cards-container {
+    padding: 0 4.832%;
+}
+
+.be-OurRestaurants .cards-container .card2 {
+    width: 100%;
+    margin-right: 537px;
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+    max-height: 563px;
+    overflow: hidden;
+    margin-bottom: 42px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.be-OurRestaurants .cards-container .card2 .img-card {
+    width: 40%;
+    max-height: 100%;
+
+}
+
+.be-OurRestaurants .cards-container .card2 .img-card img {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.be-OurRestaurants .cards-container .card2 .card-text {
+    width: 60%;
+    padding: 52px 62px 118px 20px;
+
+}
+
+.be-OurRestaurants .cards-container .card2 .card-text .card2-h1 {
+    color: var(--color-secondary);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.be-OurRestaurants .cards-container .card2 .card-text .card2-p {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.9%;
+    margin-bottom: 45px;
+
+}
+
+.be-OurRestaurants .cards-container .card2 .card-text .card2-p2 {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.9%
+}
+
+
+
+
+
+@media only screen and (max-width: 1350px) {
+    .be-roomCard {
+        gap: 70px;
+    }
+
+    .be-roomCard .card img {
+        width: 325px;
+        height: 252px;
+    }
+}
+
+@media only screen and (max-width: 1252px) {
+    .be-roomCard {
+        gap: 60px;
+
+    }
+
+    .be-roomCard .card img {
+        width: 274px;
+        height: 252px;
+    }
+
+    .be-roomCard .card .content {
+        padding: 10px 15px;
+    }
+
+    .clips .clip:hover .content-clip {
+
+        padding-left: 40px;
+
+    }
+
+
+
+    .OurResidential-card .card-content .book p span {
+        color: var(--color--primary);
+        font-size: 30px;
+        font-weight: 600;
+        line-height: normal;
+        margin-right: 10px;
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text {
+
+        padding: 52px 20px 46px 20px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text {
+
+        padding: 52px 20px 46px 20px;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1059px) {
+    .be-roomCard {
+        gap: 50px;
+
+    }
+
+    .be-roomCard .card .content .card-h2 {
+        font-size: 15px;
+    }
+
+    .be-roomCard .card .content .card-p {
+        font-size: 12px;
+    }
+
+    .be-roomCard .card .content a {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .be-roomCard .card .content .priceber .price {
+        color: var(--color--primary);
+        font-size: 15px;
+
+    }
+
+    .clips .clip:hover .content-clip {
+
+        padding-left: 30px;
+
+    }
+
+    .be-ResortFa .sec-header .btn--outline {
+        font-size: 15px;
+        padding: 5px 10px;
+   
+    }
+
+
+    .be-OurResidential .sec-header .btn-white {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-left: 30px
+    }
+
+    .be-OurRestaurants .sec-header .btn--outline {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-left: 30px;
+      
+    }
+    .be-OurResidential .cards-container .card1 .card-text .book .btn--submit {
+        padding: 6px 20px;
+        font-size: 25px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book p {
+
+        font-size: 13px;
+
+    }
+
+    .be-OurResidential  .cards-container .card1 .card-text .book p span {
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1039px) {
+    .be-roomCard {
+        gap: 30px;
+
+    }
+
+    .be-roomCard .card img {
+        width: 215px;
+        height: 217px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 960px) {
+    .be-hero .be-heroContent .be-hero-h1 {
+        font-size: 70px;
+
+    }
+
+    .be-hero .be-heroContent p {
+        font-size: 24px;
+
+    }
+
+    .clips .clip .content-clip h1 {
+        font-size: 25px;
+
+    }
+
+    .clips .clip .content-clip p {
+        font-size: 12px;
+    }
+
+    .be-info .sec-header .numbers .number .num {
+        font-size: 38px;
+    }
+
+    .be-info .sec-header .numbers .number .type {
+
+        font-size: 15px;
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-h1 {
+
+        font-size: 27px;
+
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-p {
+
+        font-size: 15px;
+
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-p2 {
+
+        font-size: 15px;
+
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .card1-h1 {
+
+        font-size: 27px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .card1-p {
+        font-size: 15px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .card1-p2 {
+
+        font-size: 15px;
+
+
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage p {
+        font-size: 12px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book .btn--submit {
+        padding: 5px 15px;
+        font-size: 27px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book p {
+
+        font-size: 15px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book p span {
+        font-size: 27px;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .be-OurResidential .sec-header {
+        padding: 95px 4.832% 96px;
+    }
+
+    .be-info .sec-header .video iframe {
+
+        height: 350px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 {
+
+        transform: translateY(-70px);
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) {
+    .clips .clip:hover .content-clip {
+        display: flex;
+        height: 19%;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 50px;
+        margin-bottom: 33px;
+        padding-left: 68px;
+
+    }
+
+    .clips .clip:hover .content-clip p {
+        display: block;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .be-hero {
+        background-image: url(../img/coverHome2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+    }
+
+    .be-hero .be-heroContent .be-hero-h1 {
+        margin-top: 80px;
+        font-size: 55px;
+        line-height: 68px;
+
+    }
+
+    .be-hero .be-heroContent p {
+        margin-top: 8px;
+        font-size: 20px;
+
+    }
+
+    .be-hero .be-heroContent .be-hero-p1 {
+        display: none;
+
+    }
+
+    .be-hero .be-heroContent img {
+        display: none;
+
+    }
+
+    .be-hero .be-heroContent .be-hero-p2 {
+        display: block;
+
+
+    }
+
+    .be-roomCard {
+        display: none;
+
+    }
+
+    .be-ResortFa {
+        padding-top: 32px;
+    }
+
+    .be-ResortFa .sec-header {
+        margin-bottom: 24px;
+    }
+
+    .be-ResortFa .sec-header .title {
+        font-size: 20px;
+    }
+
+    .be-ResortFa .sec-header .title span {
+        color: var(--color--primary);
+    }
+
+    .be-ResortFa .sec-header .desc {
+        color: var(--color--primary);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .be-ResortFa .sec-header .btn--outline {
+        display: none;
+    }
+
+
+    .clips1 {
+        padding-bottom: 48px;
+
+    }
+
+    .clips1 .clip {
+        width: 45%;
+        height: 161px;
+        position: relative;
+        background-position: left;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+    }
+
+    .clips1 .clip img {
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+
+    }
+
+    .clips1 .clip2 img {
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    .clips1 .clip2 {
+        top: 28%;
+        left: 55%;
+
+
+    }
+
+    .clips1 .clip3 {
+        top: 55%;
+        left: 0%;
+    }
+
+    .clips1 .content-clip {
+        background: black;
+        clip-path: polygon(15% 0, 90% 0, 85% 100%, 10% 100%);
+        position: absolute;
+        display: flex;
+        width: 150%;
+        height: 64px;
+        padding-left: 28%;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateY(-50%) translateX(-19%);
+        background-repeat: repeat-y;
+        top: 50%;
+        left: 100%;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .clips1 .clip2 .content-clip {
+        left: -100%;
+        width: 155%;
+        padding-left: 0;
+        padding-right: 38%;
+        background: black;
+        clip-path: polygon(10% 0, 80% 0, 85% 100%, 15% 100%);
+        transform: translateY(-50%) translateX(-17%)rotateY(180deg);
+    }
+
+    .clips1 .clip .content-clip::before {
+        content: "";
+        opacity: 0.4;
+        background-size: 10% 20%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 90%;
+        scale: 12;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+    }
+
+    .clips1 .clip1 .content-clip::before {
+        background-image: url(../img/serivecIMG/GYM1.jpg);
+
+    }
+
+    .clips1 .clip2 .content-clip::before {
+        background-image: url(../img/serivecIMG/SPA1.jpg);
+    }
+
+    .clips1 .clip3 .content-clip::before {
+        background-image: url(../img/serivecIMG/POOL1.jpg);
+    }
+
+    .clips1 .clip2 .content-clip h1,
+    .clips1 .clip2 .content-clip p {
+        transform: rotateY(180deg);
+    }
+
+    .clips1 .clip .content-clip h1 {
+        color: var(--color-font);
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    .clips1 .clip .content-clip p {
+        color: var(--color-font);
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+    .be-OurResidential .sec-header {
+        padding: 52px 4.832% 78px;
+    }
+
+
+
+    .be-OurResidential .sec-header .title {
+        font-size: 20px;
+
+    }
+
+
+
+    .be-OurResidential .sec-header .desc {
+        font-size: 15px;
+        margin-right: 10%;
+    }
+
+    .be-OurResidential .sec-header .btn-white {
+        display: none;
+    }
+
+ 
+
+
+
+
+ 
+
+
+
+    .be-OurRestaurants .sec-header {
+        margin-bottom: 24px;
+    }
+
+    .be-OurRestaurants .sec-header .title {
+        font-size: 20px;
+    }
+
+
+    .be-OurRestaurants .sec-header .desc {
+        font-size: 15px;
+    }
+
+    .be-OurRestaurants .sec-header .btn--outline {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 700px) {
+    .be-OurResidential .cards-container .card1 {
+        width: 100%;
+        display: flex;
+        max-height: max-content;
+        flex-wrap: wrap;
+        transform: translateY(-55px);
+    }
+
+    .be-OurResidential .cards-container .card1 .img-card {
+        width: 100%;
+        max-width: 100%;
+        max-height: 300px;
+
+    }
+
+
+    .be-OurResidential .cards-container .card1 .card-text {
+        width: 100%;
+        padding: 30px;
+        ;
+
+
+    }
+    .be-OurResidential .cards-container .card1 .card-text .card1-h1 {
+        font-size: 16px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .card1-p {
+        font-size: 10px;
+        margin-bottom: 8px;
+
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .card1-p2 {
+        font-size: 10px;
+        margin-bottom: 8px;
+
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(1) img {
+
+        width: 9.931px;
+        height: 24px;
+        margin-bottom: 4px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(2) img {
+        width: 24px;
+        height: 17.373px;
+        margin-bottom: 5px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(3) img {
+        width: 35.73px;
+        height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage:nth-child(4) img {
+        width: 28px;
+        height: 19.765px;
+        margin-bottom: 5px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage {
+        margin-bottom: 18px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .Advantage p {
+        font-size: 8px;
+
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book .btn--submit {
+        display: flex;
+        align-items: center;
+        padding: 4px 12px;
+        font-size: 16px;
+
+    }
+
+
+
+    .be-OurResidential .cards-container .card1 .card-text .book p {
+        font-size: 15px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book p span {
+        color: var(--color--primary);
+        font-size: 39px;
+        font-weight: 600;
+    }
+   
+
+    .be-OurResidential .cards-container .card1 .card-text .book p {
+        font-size: 10px;
+    }
+
+    .be-OurResidential .cards-container .card1 .card-text .book p span {
+        color: var(--color--primary);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+
+    .be-OurRestaurants .cards-container .card2 {
+        width: 100%;
+        display: flex;
+        max-height: max-content;
+        flex-wrap: wrap;
+    }
+
+    .be-OurRestaurants .cards-container .card2 .img-card {
+        width: 100%;
+        max-width: 100%;
+        max-height: 300px;
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text {
+        width: 100%;
+        padding: 30px;
+
+    }
+
+    
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-h1 {
+
+        font-size: 16px;
+
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-p {
+
+        font-size: 10px;
+        margin-bottom: 8px;
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text .card2-p2 {
+        font-size: 10px;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+
+    .be-info .sec-header .numbers {
+
+        padding: 52px 4.832% 0;
+
+    }
+
+    .be-info .sec-header .numbers .number .num {
+        font-size: 30px;
+    }
+
+    .be-info .sec-header .numbers .number .type {
+
+        font-size: 12px;
+    }
+
+
+    .be-info .sec-header .video iframe {
+        transform: translateY(69px);
+        height: 133px;
+
+    }
+
+    .be-OurRestaurants {
+        padding-top: 102px;
+
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .be-hero .be-heroContent .be-hero-h1 {
+        font-size: 40px;
+
+
+    }
+
+    .be-hero .be-heroContent p {
+        font-size: 16px;
+
+    }
+    .be-ResortFa .sec-header .title {
+        font-size: 18px;
+    }
+
+   
+
+    .be-ResortFa .sec-header .desc {
+        font-size: 11px;
+    }
+
+   
+   
+    .be-OurResidential .sec-header .title {
+        font-size: 20px;
+
+    }
+
+    .be-OurResidential .sec-header .desc {
+        font-size: 15px;
+    }
+
+    .be-info .sec-header .numbers {
+        padding: 52px 4.832% 0;
+    }
+
+
+ 
+
+    .be-info .sec-header .numbers .number .num {
+        font-size: 20px;
+    }
+
+    .be-info .sec-header .numbers .number .type {
+
+        font-size: 8px;
+    }
+    .be-OurResidential .cards-container .card1  {
+        margin-bottom: 0;
+
+    }
+    .be-OurResidential .cards-container .card1 .card-text {
+
+        padding: 18px;
+    }
+    .be-OurRestaurants {
+        margin-bottom: 52px;
+    }
+    
+    .be-OurRestaurants .cards-container .card1 .img-card {
+        width: 100%;
+        max-width: 100%;
+        max-height: 163px;
+
+    }
+
+    .be-info .sec-header .video {
+
+        height: 100px;
+    }
+
+    .be-info .sec-header .video iframe {
+        transform: translateY(32px);
+
+
+    }
+    .be-OurRestaurants .sec-header .title {
+        font-size: 18px;
+    }
+
+
+    .be-OurRestaurants .sec-header .desc {
+        font-size: 11px;
+    }
+
+    .be-OurRestaurants .cards-container .card2 .card-text {
+
+        padding: 18px;
+
+    }
+
+    .be-OurRestaurants .cards-container .card2 .img-card {
+        width: 100%;
+        max-width: 100%;
+        max-height: 163px;
+
+    }
+
+
+
+
+}

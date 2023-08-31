@@ -1,0 +1,8 @@
+<svg width="26" height="53" viewBox="0 0 26 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="scroll">
+<rect id="Rectangle 5" x="0.75" y="0.75" width="24.5" height="36.5" rx="12.25" stroke="#FFFDFD" stroke-width="1.5"/>
+<line id="Line 2" x1="1.05981" y1="40.9576" x2="12.9576" y2="51.9402" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<line id="Line 3" x1="0.75" y1="-0.75" x2="16.9418" y2="-0.75" transform="matrix(-0.734803 0.67828 0.67828 0.734803 26 41)" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<line id="Line 4" x1="13" y1="6" x2="13" y2="14" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>
