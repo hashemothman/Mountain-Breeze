@@ -260,7 +260,7 @@ body {
     background-color: #fff;
     color: #A3A3A3;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 25px 0px;;
     
  }
 .be-RESORTFACILITIES .slider-item .slider-inner  .section-item:hover{
@@ -1448,6 +1448,14 @@ body {
     }
 
     /*  */
+    .be-OurChaletss .section-top .section-h1 {
+        font-size: 22px;
+    }
+
+    .be-OurChaletss .section-top .section-p {
+
+        font-size: 15px;
+    }
     .be-Activetys .section-top .section-h1 {
         font-size: 22px;
     }
@@ -1478,12 +1486,12 @@ body {
     }
 
     /*  */
-    .be-RESORTEVENTS .section-top .section-h1 {
+    .be-RESORTEVENTS  .section-h1 {
         font-size: 22px;
 
     }
 
-    .be-RESORTEVENTS .section-top .section-p {
+    .be-RESORTEVENTS  .section-p {
         font-size: 15px;
 
     }
