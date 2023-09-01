@@ -90,6 +90,16 @@
 
 }
 
+.Navbar .menu1 .link a.active:before,
+.Navbar .menu2 .link a.active:before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 75%;
+
+}
+
 .Navbar .menu-moblie {
     display: none;
 }
@@ -130,6 +140,7 @@
 
 
 .Navbar .menu3 {
+    display: none !important;
     position: absolute;
     top: 97%;
     left: 0;
@@ -141,9 +152,6 @@
     flex-direction: column;
     transform: translateX(100%);
     transition: all 0.5s;
-
-
-
 }
 
 .Navbar .menu3::before {
@@ -203,6 +211,9 @@
     .Navbar::before{
         backdrop-filter: blur(8px);
     } */
+    .Navbar .menu3 {
+        display: flex !important;
+    }
      .Navbar .logo img {
         width: 93.625px;
         height: 24px;
